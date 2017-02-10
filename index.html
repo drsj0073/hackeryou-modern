@@ -3,9 +3,138 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Site</title>
-	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<h1>Hello</h1>
+	<header>
+		<div class="navbar"> <!-- Start of navbar -->
+			<div class="navbar__logo">
+				<img src="assets/images/logo.png" alt="Modern logo">
+			</div>
+			<nav>
+				<ul class="navbar__nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<div class="nav__search-icon">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+			</nav>
+		</div>  <!-- End of navbar -->
+		<div class="hero__text-box">
+			<h1 class="hero__title">
+				We are Modern
+			</h1>
+			<p class="hero__subtitle">Simplify your business</p>
+			<a href="#" class="btn">See More</a>
+		</div>
+		<img src="assets/images/mockup.png" alt="Computer with website mockup" class="hero__image">
+	</header>
+
+	<section class="services">
+		<div class="wrapper">
+			<div class="section__intro-box">
+				<img src="assets/icons/icon_01.png" alt="gear icon">
+				<h2 class="section__title">
+					Our Services
+				</h2>
+				<p class="section__subtitle">Lorem ipsum is simpy dummy text</p>
+			</div> <!-- End of section intro box -->
+
+			<div>
+				<div>
+					<img src="assets/images/service_01.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+				<div>
+					<img src="assets/images/service_02.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+				<div>
+					<img src="assets/images/service_03.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+				<div>
+					<img src="assets/images/service_01.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+				<div>
+					<img src="assets/images/service_02.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+				<div>
+					<img src="assets/images/service_03.png" alt="Web development">
+					<h3>Web Development</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+				</div>
+			</div>
+		</div> <!-- End of wrapper -->
+	</section>
+	<section class="portfolio">
+		<div class="section__intro-box">
+			<img src="assets/icons/icon_02.png" alt="Briefcase icon">
+			<h2 class="section__title">
+				Our Portfolio
+			</h2>
+			<p class="section__subtitle">Show amazing work</p>
+		</div> <!-- End of section intro box -->
+		<ul class="nav">
+			<li>
+				<a href="#" class="btn btn--ghost">Branding Design</a>
+			</li>
+			<li>	
+				<a href="#" class="btn btn--ghost">Photography</a>
+			</li>
+			<li>	
+				<a href="#" class="btn btn--ghost">Web Design</a>
+			</li>
+			<li>	
+				<a href="#" class="btn btn--ghost">Digital Art</a>
+			</li>
+			<li>	
+				<a href="#" class="btn btn--ghost">&#43;</a>
+			</li>
+		</ul>
+
+		<div class="gallery-wrapper">
+			<div class="gallery__items">
+				<ul>
+					<li><img src="assets/images/portfolio_01.png" alt="T shirt"></li>
+					<li><img src="assets/images/portfolio_02.jpg" alt="Notepad"></li>
+					<li><img src="assets/images/portfolio_03.jpg" alt="Computer graphic"></li>
+					<li><img src="assets/images/portfolio_04.jpg" alt="Man at computer desk graphic"></li>
+					<li><img src="assets/images/portfolio_05.jpg" alt="People with phones graphic"></li>
+					<li><img src="assets/images/portfolio_06.jpg" alt="Computer with data graphic"></li>
+				</ul>
+			</div>
+		</div> <!-- End of gallery wrapper -->
+
+		<div class="call-to-action">
+			<div class="wrapper">
+				<h4>Do you like abstract? Buy it now and try everything</h4>
+				<a href="#" class="btn">Purchase</a>
+			</div>
+		</div>
+	</section>
+	<section class="who-we-are">
+		<div class="section__intro-box">
+			<img src="assets/icons/icon_03.png" alt="Person icon">
+			<h2 class="section__title">
+				Who we are
+			</h2>
+			<p class="section__subtitle">About us</p>
+		</div> <!-- End of section intro box -->
+	</section>
 </body>
 </html>
