@@ -1,0 +1,23 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	.navbar__logo {
+		max-width: 100%;
+	}
+}
+
+.nav {
+	display: flex;
+	.nav__list-item {
+		padding-right: 35px;
+	}
+	.nav__link {
+		color: $white;
+		text-decoration: none;
+	}
+	.nav__link--no-r-padding {
+		padding-right: 0;
+	}
+}

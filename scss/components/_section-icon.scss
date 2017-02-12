@@ -1,0 +1,9 @@
+.section__icon {
+	background: $gradient;
+	padding: 16px;
+	border-radius: 50%;
+	display: block;
+	&--centered {
+		margin: 0 auto 40px auto;
+	}
+}

@@ -1,0 +1,29 @@
+.services {
+	background-color: #efefef;
+}
+
+.services__gallery {
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.services__cell {
+		display: inline-flex;
+		vertical-align: top;
+		width: 33.3%;
+		margin: 0 0 95px 0px;
+	}
+
+
+.services__image {
+	padding: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.services__text-box {
+	width: 215px;
+	margin-left: 30px;
+}

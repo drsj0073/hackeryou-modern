@@ -1,0 +1,83 @@
+.who-we-are__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.main-card__wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.card--outside {
+	width: 380px;
+	height: 420px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 25px 25px 120px #C9CCCF;
+	position: relative;
+	left: 22%;
+}
+
+.card--outside--small {
+	// height: 320px;
+	transform: scale(.7);
+	position: absolute;
+	left: -10px;
+	z-index: 0;
+}
+
+.card--inside {
+	width: 282px;
+	height: 230px;
+	margin-top: 50px;
+	background-color: #e5ede8;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card--icon {
+	margin-top: - 20%;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+.card--bar-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card--bar {
+	height: 12px;
+	width: 220px;
+	border-radius: 20px;
+	margin: 5px auto;
+}
+
+.card--bar1 {
+	background-color: #dee6e1;
+}
+
+.card--bar2 {
+	background-color: #d9e4dd;
+	margin-bottom: 20px;
+}
+
+.card--bar3 {
+	background-color: #d3dfd7;
+}
+
+.card--bar4 {
+	background-color: #c7d7cd;
+}
+
+.card--bar5 {
+	background-color: #bed1c5;
+}

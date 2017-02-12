@@ -1,0 +1,30 @@
+.btn {
+	color: $white;
+	padding: 15px 45px;
+	border-radius: 50px;
+	margin: 40px 0 45px 0;
+	font-weight: 300;
+}
+
+.btn--pink {
+		background-color: $button;
+}
+
+.btn--ghost {
+	color: $primaryColor;
+	border: 1px solid $primaryColor;
+}
+
+.btn--small {
+	padding: 15px 25px;
+	margin-right: 0;
+}
+
+.btn--large {
+	padding: 14px 30px;
+
+}
+
+.btn--right-align {
+	align-items: center;
+}

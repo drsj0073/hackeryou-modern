@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,600,700');
 
 // Base
 
@@ -11,3 +10,73 @@
 @import 'components/typography';
 @import 'components/navigation';
 @import 'components/buttons';
+@import 'components/hero';
+@import 'components/section-icon';
+@import 'components/page-section';
+@import 'components/services';
+@import 'components/call-to-action';
+@import 'components/info-cell';
+@import 'components/portfolio';
+@import 'components/who-we-are';
+
+li {
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+
+header {
+	background-image: linear-gradient(130deg,rgba(211,4,208,0.9),rgba(65,65,242,0.9)),url('../assets/icons/hero.jpg');
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.image-b {
+	background-image: url('../assets/images/mockup.png');
+	background-repeat: no-repeat;
+	background-position: 50% 352%; 
+}
+
+.wrapper {
+	max-width: 1190px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+//Wraps around all the cards
+.our-team__card-wrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+//Wraps around individual cards
+.our-team__card-container {
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 10px 10px 100px #C9CCCF;
+}
+
+.our-team__card-container:hover {
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 25px 25px 120px #C9CCCF;
+	cursor: pointer;
+}
+
+.our-team__image {
+	max-width: 100%;
+}
+
+.our-team__name-wrapper {
+	padding: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,40 @@
+.info__cell {
+		display: flex;
+		vertical-align: top;
+		margin-bottom: 15px;
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+.info__image {
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.info-image--large {
+	padding: 30px;
+	color: #79be93;
+}
+
+.info-image--purple {
+	background-color: #f0e9f3;
+}
+
+.info-image--blue {
+	background-color: #e4eff6;
+}
+
+.info-image--green {
+	background-color: #daf1ed;
+}
+
+.info-image--border {
+	border: 10px solid #fff;
+}
+
+.info__text-box {
+	width: 215px;
+	margin-left: 30px;
+}

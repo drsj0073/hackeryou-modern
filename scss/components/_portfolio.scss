@@ -1,0 +1,26 @@
+
+.portfolio__search-menu {
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+
+.portfolio__list-item {
+	margin-right: 10px;
+}
+
+
+.portfolio__gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+.portfolio__image-container {
+	width: 33.3%;
+}
+
+.portfolio__image {
+	width: 100%;
+	display: block;
+}
