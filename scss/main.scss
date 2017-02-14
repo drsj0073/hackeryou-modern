@@ -20,6 +20,10 @@
 @import 'components/who-we-are';
 @import 'components/our-team';
 @import 'components/clients';
+@import 'components/work-process';
+@import 'components/pricing';
+@import 'components/experience';
+@import 'components/form';
 
 li {
 	list-style: none;
@@ -59,56 +63,24 @@ header {
 	width: 100%;
 }
 
-.work-process__container {
+footer {
+	background-color: #31333f;
+}
+
+.footer__container{
 	display: flex;
-	justify-content: space-around;
-	margin-top: 80px;
 }
 
-.work-process__cell {
+.footer__cell {
+	flex: 1;
+	justify-content: space-between;
+}
+
+.footer__instagram-feed {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-wrap: wrap;
 }
 
-.work-process__number {
-	font-size: 1.875rem;
-	color: #f0e9f3;
-}
-
-.work-process__banner {
-	background-image: linear-gradient(130deg,rgba(211,4,208,0.9),rgba(65,65,242,0.9)),url('../assets/images/section_hero_03.jpg');
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	margin-top: 210px;
-	position: relative;
-}
-
-.work-process__banner-headline {
-	font-size: 2.1875rem;
-	text-transform: uppercase;
-	margin-bottom: 45px;
-}
-
-.work-process__banner-headline--purple {
-	color: #BBC9E5;
-}
-
-.work-process__ipad {
-	position: absolute;
-	top: -65px;
-}
-
-.work-process__text {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	color: $white;
-	padding: 150px 0;
-	width: 50%;
-	margin-left: 50%;
-}
 
 
 

@@ -204,6 +204,11 @@ p {
 .work-process__banner-paragraph {
   line-height: 1.5; }
 
+.paragraph__small {
+  font-size: .625rem;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -235,6 +240,18 @@ p {
 .btn--ghost {
   color: #2E2E2E;
   border: 1px solid #2E2E2E; }
+
+.btn--grey {
+  color: #000;
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.btn--purple {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #D304D0;
+  background-color: #fff; }
 
 .btn--small {
   padding: 15px 25px;
@@ -577,35 +594,6 @@ p {
   background-color: #555;
   border-radius: 50%; }
 
-li {
-  list-style: none; }
-
-ul {
-  list-style: none; }
-
-header {
-  background-image: linear-gradient(130deg, rgba(211, 4, 208, 0.9), rgba(65, 65, 242, 0.9)), url("../assets/icons/hero.jpg");
-  background-size: cover;
-  display: flex;
-  flex-direction: column; }
-
-.mac-holder {
-  max-width: 100%;
-  position: absolute;
-  transform: translateY(-35.5%);
-  z-index: 5;
-  overflow: hidden;
-  padding: 0;
-  margin: 0; }
-
-.mac-holder img {
-  max-width: 100%; }
-
-.wrapper {
-  max-width: 1190px;
-  margin: 0 auto;
-  width: 100%; }
-
 .work-process__container {
   display: flex;
   justify-content: space-around;
@@ -648,3 +636,197 @@ header {
   padding: 150px 0;
   width: 50%;
   margin-left: 50%; }
+
+.pricing {
+  background-color: #efefef; }
+
+.price-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 85px;
+  max-width: 1170px;
+  padding-bottom: 110px; }
+
+.price-box__cell {
+  width: 33%;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 60px 0 50px 0;
+  text-align: center;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 25px 25px 120px #C9CCCF; }
+
+.price-box__cell ul {
+  text-align: left;
+  padding-left: 45px; }
+
+.price-box__cell--gradient {
+  background: linear-gradient(135deg, #D304D0, #4141f2); }
+
+.price-box__cell:last-child {
+  margin-right: 0; }
+
+.price-box__title--black {
+  color: #000; }
+
+.price-box__title--white {
+  color: #fff; }
+
+.price-box--grey-text {
+  color: #949696;
+  margin: 35px auto 25px auto; }
+
+.price-box--white-text {
+  color: #fff;
+  margin: 35px auto 25px auto; }
+
+.price-box__price {
+  font-size: 5rem;
+  display: block;
+  text-align: center;
+  margin: 30px auto 50px auto;
+  font-weight: 600; }
+
+.price-box__price--white {
+  color: #fff;
+  text-shadow: 2px 2px 30px #4141f2; }
+
+.price-box__list {
+  padding: 20px 0; }
+
+.price-box__price--gradient {
+  background: -webkit-linear-gradient(#D304D0, #4141f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 30px #4141f2; }
+
+.price-box__title--centered {
+  text-align: center;
+  padding: 60px auto 25px auto; }
+
+.fa-check {
+  color: #00ba97;
+  margin-right: 20px; }
+
+.fa-check--white {
+  color: #fff; }
+
+.experience {
+  background-image: -webkit-linear-gradient(rgba(224, 227, 227, 0.6980392157), rgba(224, 227, 227, 0.6980392157)), url(../assets/images/section_hero_02.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.experience__cell {
+  position: relative; }
+
+.experience__content {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 32%; }
+
+.experience__wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0 350px 0; }
+
+.experience__number {
+  font-size: 1.875rem;
+  color: #949696; }
+
+form {
+  margin-top: 80px; }
+
+input[type=text],
+input[type=email] {
+  margin-right: 10px; }
+
+input[type=text].form__subject--r-margin-none {
+  margin-right: 0; }
+
+input[type=text],
+input[type=email],
+input[type=textbox] {
+  width: calc(33% - 10px);
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 10px; }
+
+input[type=textbox] {
+  width: calc(100% - 10px);
+  margin-top: 45px;
+  padding-bottom: 245px; }
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: black; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: black; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+  opacity: 1; }
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: black;
+  opacity: 1; }
+
+input:focus {
+  outline: none;
+  border: 3px solid #D304D0;
+  box-shadow: 0 0 5px #D304D0; }
+
+.form__btn--end {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px; }
+
+li {
+  list-style: none; }
+
+ul {
+  list-style: none; }
+
+header {
+  background-image: linear-gradient(130deg, rgba(211, 4, 208, 0.9), rgba(65, 65, 242, 0.9)), url("../assets/icons/hero.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+
+.mac-holder {
+  max-width: 100%;
+  position: absolute;
+  transform: translateY(-35.5%);
+  z-index: 5;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+
+.mac-holder img {
+  max-width: 100%; }
+
+.wrapper {
+  max-width: 1190px;
+  margin: 0 auto;
+  width: 100%; }
+
+footer {
+  background-color: #31333f; }
+
+.footer__container {
+  display: flex; }
+
+.footer__cell {
+  flex: 1;
+  justify-content: space-between; }
+
+.footer__instagram-feed {
+  display: flex;
+  flex-wrap: wrap; }
+  .footer__instagram-feed li {
+    margin: 15px; }

@@ -15,6 +15,20 @@
 	border: 1px solid $primaryColor;
 }
 
+.btn--grey {
+	color: #000;
+	background-color: rgb(241, 241, 241);
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.btn--purple {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #D304D0;
+	background-color: $white;
+}
+
 .btn--small {
 	padding: 15px 25px;
 	margin-right: 0;

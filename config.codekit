@@ -277,68 +277,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/insta_small1.jpg": {
+	"\/assets\/images\/instagram-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 21115,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small1.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small1.jpg",
+		"initialSize": 6428,
+		"inputAbbreviatedPath": "\/assets\/images\/instagram-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/insta_small2.jpg": {
+	"\/assets\/images\/instagram-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3916,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small2.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small2.jpg",
+		"initialSize": 5950,
+		"inputAbbreviatedPath": "\/assets\/images\/instagram-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/insta_small3.jpg": {
+	"\/assets\/images\/instagram-4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4338,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small3.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small3.jpg",
+		"initialSize": 5593,
+		"inputAbbreviatedPath": "\/assets\/images\/instagram-4.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/insta_small4.jpg": {
+	"\/assets\/images\/instagram-5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4983,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small4.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small4.jpg",
+		"initialSize": 5593,
+		"inputAbbreviatedPath": "\/assets\/images\/instagram-5.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/insta_small5.jpg": {
+	"\/assets\/images\/instagram-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5065,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small5.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/insta_small6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3945,
-		"inputAbbreviatedPath": "\/assets\/images\/insta_small6.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/insta_small6.jpg",
+		"initialSize": 5701,
+		"inputAbbreviatedPath": "\/assets\/images\/instagram-6.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/instagram-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -732,6 +721,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/components\/_experience.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/_experience.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_experience.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/components\/_form.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/_form.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_form.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/components\/_hero.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -828,6 +849,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/components\/_pricing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/_pricing.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_pricing.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/components\/_section-icon.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -885,6 +922,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/components\/_who-we-are.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_who-we-are.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/components\/_work-process.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/_work-process.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_work-process.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
