@@ -1,0 +1,79 @@
+//Wraps around all the cards
+.our-team__card-wrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+//Wraps around individual cards
+.our-team__card-container {
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 10px 10px 100px #C9CCCF;
+	margin-bottom: 100px;
+}
+
+.our-team__card-container:hover {
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 25px 25px 120px #C9CCCF;
+	cursor: pointer;
+}
+
+.our-team__image {
+	max-width: 100%;
+}
+
+.our-team__name-wrapper {
+	padding: 20px;
+}
+
+.our-team__social-media {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+.our-team__social-icons{
+	padding: 17px 20px;
+	margin-right: 8px;
+}
+
+.our-team__social-icons--no-r-margin {
+	margin-right: 0;
+}
+
+.our-team__facebook {
+	color: #3a559f;
+	background-color: #e0e4f0;
+}
+
+.our-team__facebook:hover {
+	background: $gradient;
+	color: $white;
+}
+
+.our-team__dribble {
+	color: #ed4989;
+	background-color: #f0e9f3;
+}
+
+.our-team__dribble:hover {
+	background: $gradient;
+	color: $white;
+}
+
+.our-team__behance {
+	color: #0469ff;
+	background-color: #e4eefb;
+}
+
+.our-team__behance:hover {
+	background: $gradient;
+	color: $white;
+}
+
+.our-team__gradient-border {
+
+	background: $gradient;
+	height: 5px;
+	width: 120px;
+}

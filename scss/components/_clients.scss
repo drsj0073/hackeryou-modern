@@ -1,0 +1,95 @@
+.testimonials {
+	background-color: #FAFBFE;
+	margin-bottom: 45px;
+}
+
+.box-container {
+  	position: relative;
+  	text-align: center;
+	max-width: 690px;
+	margin: 75px auto 0 auto;
+	padding: 245px 0;
+}
+
+.clients__center-box {
+  width: 520px;
+  height: 330px;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  padding: 45px 0;
+  left: 85px;
+  /* offset-x | offset-y | blur-radius | color */
+	box-shadow: 25px 25px 120px #C9CCCF;
+}
+
+.clients__long-box {
+  width: 690px;
+  height: 230px;
+  padding: 45px 0;
+  position: absolute;
+  top: 50px;
+  background-color:  #fff;
+	/* offset-x | offset-y | blur-radius | color */
+	box-shadow: 25px 25px 120px #C9CCCF;
+}
+
+
+.clients__paragraph {
+	padding: 20px 20px;
+	line-height: 1.5;
+}
+
+.clients__job-title {
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.quote-icon {
+	margin-top: -80px;
+	margin-bottom: 40px;
+}
+
+.clients__monica-box {
+	    background-image: linear-gradient(130deg, rgba(211, 4, 208, 0.9), rgba(65, 65, 242, 0.9));
+    height: 99px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 15px auto 0 auto;
+}
+
+.clients__monica {
+	width: 100%;
+	border-radius: 50%;
+	height: 70px;
+	display: block;
+}
+
+
+.circles__container {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 110px;
+}
+
+.clients__gradient-circle {
+	background-image: linear-gradient(130deg,rgba(211,4,208,0.9),rgba(65,65,242,0.9));
+	width: 10px;
+	height: 10px;
+	margin-right: 9px;
+	background-color: #555;
+	border-radius: 50%;
+}
+
+.clients__circle {
+	width: 10px;
+	height: 10px;
+	margin-right: 9px;
+	background-color: #555;
+	border-radius: 50%;
+}

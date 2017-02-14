@@ -49,6 +49,19 @@ p {
 	margin-top: 15px;
 }
 
+.paragraph--centered {
+	text-align: center;
+}
+
+.paragraph--uppercase {
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.paragraph--extra-padding {
+	padding: 0 70px;
+}
+
 .call-to-action__title {
 	font-size: 2.3125rem;
 	max-width: 550px;
@@ -57,5 +70,13 @@ p {
 
 .about-us__title {
 	font-size: 1.25rem;
+}
+
+.testimonal__title {
+	margin: 50px 0 15px 0;
+}
+
+.work-process__banner-paragraph {
+	line-height: 1.5;
 }
 

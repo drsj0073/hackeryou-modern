@@ -12,7 +12,6 @@
 </head>
 <body>
 	<header>
-	 <div class="image-b">
 		<div class="wrapper">
 			<div class="navbar"> <!-- Start of navbar -->
 				<div class="navbar__logo">
@@ -41,8 +40,11 @@
 			</div>
 			
 		</div>
-		</div>
 	</header>
+			<div class="mac-holder">
+				<img src="assets/images/mockup.png" alt="computer mockup" class="header__computer-image">
+			</div>
+
 
 	<section class="services">
 		<div class="page-section">
@@ -196,7 +198,7 @@
 
 					<div class="main-card__wrapper">
 
-						<div class="card--outside card--outside--small">
+						<div class="card--outside card--outside--small card--outside--left card--outside--box-shadow">
 							<div class="card--inside">
 								<figure class="card--icon">
 									<i class="fa fa-users info__image info-image--green info-image--large info-image--border" aria-hidden="true"></i>
@@ -212,7 +214,7 @@
 						</div> <!-- ouside display: flex -->
 
 
-						<div class="card--outside">
+						<div class="card--outside card--outside--left card--outside--box-shadow">
 							<div class="card--inside">
 								<figure class="card--icon">
 									<i class="fa fa-users info__image info-image--green info-image--large info-image--border" aria-hidden="true"></i>
@@ -281,13 +283,15 @@
 							<h3>Monica Smith</h3>
 							<p class="paragraph--extra-t-margin">UX designer</p>
 						</div>
-						<div class="our-team__social-media">
-							<ul>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
+							<ul class="our-team__social-media">
+								<li>
+									<a href="#"><i class="fa fa-facebook our-team__social-icons our-team__facebook" aria-hidden="true"></i></a></li>
+								
+									<li><a href="#"><i class="fa fa-dribbble our-team__social-icons our-team__dribble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance our-team__social-icons our-team__social-icons--no-r-margin our-team__behance" aria-hidden="true"></i></a></li>
+													
 							</ul>
-						</div>
+
 					</div> <!-- End of social media card wrapper -->
 				
 
@@ -298,13 +302,11 @@
 							<h3>Carter Payne</h3>
 							<p class="paragraph--extra-t-margin">Designer</p>
 						</div>
-						<div class="our-team__social-media">
-							<ul>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
+						<ul class="our-team__social-media"> 
+								<li><a href="#"><i class="fa fa-facebook our-team__social-icons our-team__facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble our-team__social-icons our-team__dribble" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance our-team__social-icons our-team__social-icons--no-r-margin our-team__behance" aria-hidden="true"></i></a></li>
 							</ul>
-						</div>
 					</div> <!-- End of social media card wrapper -->
 					<div class="our-team__card-container">
 						<img src="assets/images/our-team_3.jpg" alt="Millika Mong" class="our-team__image">
@@ -312,13 +314,11 @@
 							<h3>Millika Mong</h3>
 							<p class="paragraph--extra-t-margin">Programmer</p>
 						</div>
-						<div class="our-team__social-media">
-							<ul>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-								<li class="our-team__social-media-icons"><a href="#"></a></li>
-							</ul>
-						</div> 
+						<ul class="our-team__social-media"> 
+								<li><a href="#"><i class="fa fa-facebook our-team__social-icons our-team__facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble our-team__social-icons our-team__dribble" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance our-team__social-icons our-team__social-icons--no-r-margin our-team__behance" aria-hidden="true"></i></a></li>
+							</ul> 
 					</div> <!-- End of social media card wrapper -->
 				</div> <!-- End of our team - card wrapper --> 
 
@@ -330,107 +330,155 @@
 	
 	
 	<section class="testimonials">
-		<div class="section__intro-box">
-			<img src="assets/icons/who-we-are_01.png" alt="Person icon">
-			<h2 class="section__title">
-				Clients Say
-			</h2>
-			<p class="section__subtitle">Happy Clients</p>
-		</div> <!-- End of section intro box -->
-		<div class="testimonial__card-wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error hic deserunt similique ea porro itaque officiis odit incidunt quod, sed ullam, aliquid reiciendis eveniet praesentium voluptatibus iste dolorem in et.</p>
-		</div>
-		<div class="testimonial__card-wrapper">
-			<!--quote icon-->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloremque fugiat reiciendis distinctio reprehenderit explicabo veniam incidunt omnis nesciunt. Ipsum autem reiciendis officia itaque et tempore nisi quam numquam deleniti.</p>
-			<h3>Monica Smith</h3>
-			<p>Ceo</p>
-			<!-- <img src="assets/images/portrait2.jpg" alt="Monica Smith portrait"> -->
-		</div>
-		<div class="testimonial__card-wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, rerum optio nostrum eum neque excepturi qui magni ipsum sequi, nisi laborum alias enim odio labore laudantium perferendis, praesentium sint quia.</p>
-		</div>
+		<div class="page-section">
+			<div class="wrapper">
+				<img src="assets/icons/icon_01.png" alt="gear icon" class="section__icon section__icon--centered">
+				<h2 class="section__title section__title--centered">
+					Clients Say
+				</h2>
+				<p class="section__subtitle section__subtitle--italic">Happy Clients</p>
+
+
+					
+				  <div class="box-container">
+
+				    <div class="clients__center-box">
+				    	<figure>
+				    	   <img src="assets/icons/quote-icon.png" alt="quote icon" class="quote-icon">
+				    	</figure>
+				    	<p class="clients__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur tempore voluptatem incidunt perspiciatis! Dolor esse ipsum asperiores dolore commodi, quisquam iure sed, culpa, odit nostrum soluta, fugit accusantium ducimus praesentium.</p>
+				    	<h3>Monica Smith</h3>
+				    	<p class="clients__job-title">Ceo</p>
+				    	<div class="clients__monica-box">
+				    		<img src="assets/images/our-team_1-square.jpg" alt="Monica smith" class="clients__monica">
+				    	</div>
+				    </div>
+
+				    <div class="clients__long-box">
+				    	<p class="clients__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quisquam autem eum, temporibus neque asperiores ipsa, necessitatibus non. Quis atque tempora asperiores, eius ipsam explicabo ea quisquam sed officiis libero!</p>
+				    </div>
+					</div>
+				 
+					<div class="circles__container">
+						<div class="clients__circle"></div>
+						<div class="clients__gradient-circle "></div>
+						<div class="clients__circle"></div>
+					</div>
+				 
+				
+			</div> <!-- End of site wrapper -->
+		</div>	<!-- End of page section -->
 	</section>
 
 	<section class="progress">
-		<div class="section__intro-box">
-			<img src="assets/icons/who-we-are_01.png" alt="Person icon">
-			<h2 class="section__title">
-				Work Process
-			</h2>
-			<p class="section__subtitle">Show our work</p>
-		</div> <!-- End of section intro box -->
-		
-		<div>
-			<div>
-				<img src="assets/images/service_01.png" alt="Brain icon">
-				<h3>Brainstorming</h3>
-			</div>
-			<div>
-				<img src="assets/images/service_02.png" alt="Brain icon">
-				<h3>Concept Prototype</h3>
-			</div>
-			<div>
-				<img src="assets/images/service_03.png" alt="Brain icon">
-				<h3>Design Layout</h3>
-			</div>
-			<div>
-				<img src="assets/images/service_04.png" alt="Brain icon">
-				<h3>Development</h3>
-			</div>
-		</div> <!-- End of service div -->
+		<div class="page-section">
+			<div class="wrapper">
+				<div class="section__intro-box">
+					<img src="assets/icons/icon_01.png" alt="gear icon" class="section__icon section__icon--centered">
+					<h2 class="section__title section__title--centered">
+						Work Process
+					</h2>
+					<p class="section__subtitle section__subtitle--italic">Show Our Work</p>
+				
+				<div class="work-process__container">
+					<div class="work-process__cell">
+						<span class="work-process__number">
+							01
+						</span>
+						<img src="assets/images/service_01.png" alt="Brain icon">
+						<p class="paragraph--uppercase">Brainstorming</p>
+					</div>
+					<div class="work-process__cell">
+						<span class="work-process__number">
+							02
+						</span>
+						<img src="assets/images/service_02.png" alt="Brain icon">
+						<p class="paragraph--uppercase">Concept Prototype</p>
+					</div>
+					<div class="work-process__cell">
+						<span class="work-process__number">
+							03
+						</span>				
+						<img src="assets/images/service_03.png" alt="Brain icon">
+						<p class="paragraph--uppercase">Design Layout</p>
+					</div>
+					<div class="work-process__cell">
+						<span class="work-process__number">
+							04
+						</span>
+						<img src="assets/images/service_01.png" alt="Brain icon">
+						<p class="paragraph--uppercase">Development</p>
+					</div>
+				</div> <!-- End of service div -->
+				</div> <!-- End of wrapper -->
+				</div>
 
-		<div>
-			<img src="assets/images/ipad.png" alt="Ipad">
-			<h1>We work with passion</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis reiciendis dolorem, aliquid, repellendus ex saepe voluptate iste fuga ab in, ea asperiores quibusdam dolore. Tempora dolorem dignissimos autem ad saepe.</p>
-		</div>
-	</section> <!-- End of progress section -->
+				<div class="work-process__banner">
+					<img src="assets/images/ipad.png" alt="Ipad" class="work-process__ipad">
+					<div class="work-process__text">
+						<h1 class="work-process__banner-headline"><span class="work-process__banner-headline--purple">We work<br></span> with passion</h1>
+						<p class="work-process__banner-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis reiciendis dolorem, aliquid, repellendus ex saepe voluptate iste fuga ab in, ea asperiores quibusdam dolore. Tempora dolorem dignissimos autem ad saepe.</p>
+					</div>
+				</div>
+
+
 	<section class="pricing">
-		<div class="price-box">
-			<div class="price-box__cell">
-				<p>Website Design</p>
-				<span class="price-box__price">$29</span>
-				<a href="#" class="btn">Features</a>
-				<ul>
-					<li>10 Pages Website Design</li>
-					<li>Joomla and wordpress ready</li>
-					<li>3 Alternative designs</li>
-					<li>Free 1 year domain</li>
-					<li>10GB Free Hosting</li>
-					<li>Unlimited Revisions</li>
-				</ul>
-				<a href="#" class="btn">Order Now</a>
-			</div> <!-- End of price box cell -->
-			<div class="price-box__cell">
-				<p>All in One</p>
-				<span class="price-box__price">$99</span>
-				<a href="#" class="btn">Features</a>
-				<ul>
-					<li>10 Pages Website Design</li>
-					<li>Joomla and wordpress ready</li>
-					<li>3 Alternative designs</li>
-					<li>Free 1 year domain</li>
-					<li>10GB Free Hosting</li>
-					<li>Unlimited Revisions</li>
-				</ul>
-				<a href="#" class="btn">Order Now</a>
-			</div> <!-- End of price box cell -->
-			<div class="price-box__cell">
-				<p>Website Development</p>
-				<span class="price-box__price">$59</span>
-				<a href="#" class="btn">Features</a>
-				<ul>
-					<li>10 Pages Website Design</li>
-					<li>Joomla and wordpress ready</li>
-					<li>3 Alternative designs</li>
-					<li>Free 1 year domain</li>
-					<li>10GB Free Hosting</li>
-					<li>Unlimited Revisions</li>
-				</ul>
-				<a href="#" class="btn">Order Now</a>
-			</div> <!-- End of price box cell -->
-		</div> <!-- End of price box -->
+		<div class="page-section">
+			<div class="wrapper">
+				<img src="assets/icons/icon_01.png" alt="gear icon" class="section__icon section__icon--centered">
+				<h2 class="section__title section__title--centered">
+					Pricing
+				</h2>
+				<p class="section__subtitle section__subtitle--italic">Get Your Plans for Work</p>
+
+				<div class="price-box">
+					<div class="price-box__cell">
+						<p>Website Design</p>
+						<span class="price-box__price">$29</span>
+						<a href="#" class="btn">Features</a>
+						<ul>
+							<li>10 Pages Website Design</li>
+							<li>Joomla and wordpress ready</li>
+							<li>3 Alternative designs</li>
+							<li>Free 1 year domain</li>
+							<li>10GB Free Hosting</li>
+							<li>Unlimited Revisions</li>
+						</ul>
+						<a href="#" class="btn">Order Now</a>
+					</div> <!-- End of price box cell -->
+					<div class="price-box__cell">
+						<p>All in One</p>
+						<span class="price-box__price">$99</span>
+						<a href="#" class="btn">Features</a>
+						<ul>
+							<li>10 Pages Website Design</li>
+							<li>Joomla and wordpress ready</li>
+							<li>3 Alternative designs</li>
+							<li>Free 1 year domain</li>
+							<li>10GB Free Hosting</li>
+							<li>Unlimited Revisions</li>
+						</ul>
+						<a href="#" class="btn">Order Now</a>
+					</div> <!-- End of price box cell -->
+					<div class="price-box__cell">
+						<p>Website Development</p>
+						<span class="price-box__price">$59</span>
+						<a href="#" class="btn">Features</a>
+						<ul>
+							<li>10 Pages Website Design</li>
+							<li>Joomla and wordpress ready</li>
+							<li>3 Alternative designs</li>
+							<li>Free 1 year domain</li>
+							<li>10GB Free Hosting</li>
+							<li>Unlimited Revisions</li>
+						</ul>
+						<a href="#" class="btn">Order Now</a>
+					</div> <!-- End of price box cell -->
+				</div> <!-- End of price box -->
+
+
+			</div>
+		</div>
 	</section> <!-- End of pricing section -->
 	<section class="experience">
 
@@ -459,13 +507,11 @@
 	</section> <!-- End of experience section -->
 
 	<section class="contact">
-		<div class="section__intro-box">
-			<img src="assets/icons/who-we-are_01.png" alt="Person icon">
-			<h2 class="section__title">
-				Get in touch
-			</h2>
-			<p class="section__subtitle">Support First</p>
-		</div> <!-- End of section intro box -->
+		<img src="assets/icons/icon_01.png" alt="gear icon" class="section__icon section__icon--centered">
+		<h2 class="section__title section__title--centered">
+			Get in Touch
+		</h2>
+		<p class="section__subtitle section__subtitle--italic">Support First</p>
 		<form action="">
 			<input type="text" placeholder="Name">
 			<input type="email" placeholder="Email">
