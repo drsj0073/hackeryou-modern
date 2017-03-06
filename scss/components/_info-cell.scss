@@ -7,6 +7,13 @@
 		}
 	}
 
+@media (max-width: 1048px) {
+	.info__cell-container {
+		margin-top: 25px;
+		justify-content: center;
+	}
+}	
+
 .info__image {
 	padding: 15px;
 	border-radius: 50%;

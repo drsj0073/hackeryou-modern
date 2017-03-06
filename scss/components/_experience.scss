@@ -21,6 +21,15 @@
 	padding: 150px 0 350px 0;
 }
 
+@media (max-width: 768px) {
+	.experience__wrapper {
+		flex-wrap: wrap;
+		padding: 50px 0 50px 0;
+	}
+}
+
+
+
 .experience__number {
 	font-size: 1.875rem;
 	color: $secondaryColor;

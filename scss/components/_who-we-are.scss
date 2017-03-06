@@ -4,9 +4,38 @@
 	margin-top: 80px;
 }
 
+
+@media (max-width: 1048px) {
+	.who-we-are__wrapper {
+		flex-direction: column;
+	}
+}
+
 .main-card__wrapper {
 	display: flex;
 	align-items: center;
+}
+
+@media (max-width: 1048px) {
+	.main-card__wrapper {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1048px) {
+	.about-us__container {
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		}
+}
+
+@media (max-width: 600px) {
+	.about-us__container {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		}
 }
 
 .card--outside {
@@ -28,12 +57,28 @@
 	left: 22%;
 }
 
+@media (max-width: 1048px) {
+	.card--outside--left  {
+	position: relative;
+	left:-30%;
+	}
+}
+
 .card--outside--small {
-	// height: 320px;
 	transform: scale(.7);
 	position: absolute;
 	left: -10px;
 	z-index: 0;
+}
+
+
+@media (max-width: 1048px) {
+	.card--outside--small {
+		transform: scale(.7);
+		position: relative;
+		left: 25%;
+		z-index: 0;
+	}
 }
 
 .card--inside {

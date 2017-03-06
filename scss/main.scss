@@ -24,6 +24,7 @@
 @import 'components/pricing';
 @import 'components/experience';
 @import 'components/form';
+@import 'components/footer';
 
 li {
 	list-style: none;
@@ -63,23 +64,11 @@ header {
 	width: 100%;
 }
 
-footer {
-	background-color: #31333f;
-}
 
-.footer__container{
-	display: flex;
-}
 
-.footer__cell {
-	flex: 1;
-	justify-content: space-between;
-}
 
-.footer__instagram-feed {
-	display: flex;
-	flex-wrap: wrap;
-}
+
+
 
 
 

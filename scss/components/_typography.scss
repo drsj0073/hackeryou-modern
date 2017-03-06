@@ -18,7 +18,8 @@ p {
 	font-size: 1.75rem;
 	text-transform: uppercase;
 	font-weight: 400;
-	letter-spacing: 1.5px;
+	letter-spacing: 2px;
+
 	&--centered {
 		text-align: center;
 	}
@@ -45,6 +46,14 @@ p {
 	margin: 35px 0 55px 0;
 }
 
+@media (max-width: 1048px) {
+	.paragraph__large-width {
+		max-width: 400px;
+		color: $secondaryColor;
+		margin-right: 30px;
+	}
+}
+
 .paragraph--extra-t-margin {
 	margin-top: 15px;
 }
@@ -68,8 +77,27 @@ p {
 	color: $white;
 }
 
+@media (max-width: 480px) {
+	.call-to-action__title {
+		font-size: 1.5rem;
+	}
+} 
+
 .about-us__title {
 	font-size: 1.25rem;
+}
+
+@media (max-width: 1048px) {
+	.about-us__title {
+		font-size: 2rem;
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about-us__title {
+		text-align: center;
+	}
 }
 
 .testimonal__title {

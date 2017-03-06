@@ -5,12 +5,27 @@
 	margin-top: 80px;
 }
 
+@media (max-width: 768px) {
+	.our-team__card-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
 //Wraps around individual cards
 .our-team__card-container {
 	/* offset-x | offset-y | blur-radius | color */
 	box-shadow: 10px 10px 100px #C9CCCF;
 	margin-bottom: 100px;
 }
+
+@media (max-width: 768px) {
+	.our-team__card-container{
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+}
+
 
 .our-team__card-container:hover {
 	/* offset-x | offset-y | blur-radius | color */

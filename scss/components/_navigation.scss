@@ -8,6 +8,12 @@
 	}
 }
 
+@media (max-width: 768px) {
+		.navbar {
+			flex-direction: column;
+		}
+	}
+
 .nav {
 	display: flex;
 	.nav__list-item {
@@ -21,3 +27,25 @@
 		padding-right: 0;
 	}
 }
+
+
+@media (max-width: 768px) {
+		.nav {
+			margin-top: 40px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.nav {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.nav__link {
+			padding: 10px 0;
+			display: block;
+			margin: 5px;
+			text-align: center;
+		}
+	}
+

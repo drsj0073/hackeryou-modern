@@ -15,6 +15,12 @@
 	border: 1px solid $primaryColor;
 }
 
+@media (max-width: 480px) {
+	.btn--ghost {
+		border: none;
+	}
+}
+
 .btn--grey {
 	color: #000;
 	background-color: rgb(241, 241, 241);
@@ -33,6 +39,12 @@
 	padding: 15px 25px;
 	margin-right: 0;
 }
+
+@media (max-width: 768px) {
+	.btn.btn--small {
+		padding: 12px 10px;
+	}
+}	
 
 .btn--large {
 	padding: 14px 30px;
