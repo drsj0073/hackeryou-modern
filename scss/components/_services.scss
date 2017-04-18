@@ -3,6 +3,12 @@
 	margin-top: 100px;
 }
 
+@media (max-width: 470px) {
+	.services {
+		margin-top: 0;
+	}
+}
+
 .services__gallery {
 	display: inline-flex;
 	flex-wrap: wrap;

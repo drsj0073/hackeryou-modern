@@ -6,21 +6,14 @@
 .box-container {
   	position: relative;
   	text-align: center;
-	max-width: 690px;
+	max-width: 60%;
 	margin: 75px auto 0 auto;
 	padding: 245px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 470px) {
 	.box-container {
-		padding: 200px 0;
-	}
-}
-
-@media (max-width: 480px) {
-	.box-container {
-		width: 100%;
-		margin-left: 35px;
+		max-width: 90%;
 	}
 }
 
@@ -39,11 +32,14 @@
 	box-shadow: 25px 25px 120px #C9CCCF;
 }
 
-@media (max-width: 480px) {
-	.clients__center-box {
+@media (max-width: 768px) {
+	.clients__center-box{
+		width: 100%;
 		left: 0;
+		padding: 45px 20px;
 	}
 }
+
 
 .clients__long-box {
   width: 100%;
@@ -98,7 +94,7 @@
 }
 
 .clients__monica-box {
-	    background-image: linear-gradient(130deg, rgba(211, 4, 208, 0.9), rgba(65, 65, 242, 0.9));
+	background-image: linear-gradient(130deg, rgba(211, 4, 208, 0.9), rgba(65, 65, 242, 0.9));
     height: 99px;
     width: 90px;
     border-radius: 50%;
@@ -119,6 +115,12 @@
 	justify-content: center;
 	margin: 0 auto;
 	padding-bottom: 110px;
+}
+
+@media (max-width: 470px) {
+	.circles__container {
+		padding-bottom: 50px;
+	}
 }
 
 .clients__gradient-circle {

@@ -44,6 +44,12 @@ footer {
 	}
 }
 
+@media (max-width: 768px) {
+	.footer__cell {
+		width: 95%;
+	}
+}
+
 .footer__cell p {
 	line-height: 1.5;
 }
